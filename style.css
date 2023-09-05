@@ -8,6 +8,9 @@
 #rc-loreal-repair :after {
   --tw-content: '';
 }
+#rc-loreal-repair .rc-max-w-75 {
+  max-width: 75%;
+}
 #rc-loreal-repair html {
   -webkit-text-size-adjust: 100%;
   tab-size: 4;
@@ -2608,6 +2611,11 @@
   .rc-bg-hero {
     background: linear-gradient(222.69deg, #251e1632 0.35%, #251e1600 42.36%), linear-gradient(294.94deg, #251e1632 1.7%, #251e1600 38.2%),
       linear-gradient(#fff, #fff);
+  }
+}
+@media (min-width: 920px) {
+  #rc-loreal-repair .rc-max-w-470 {
+    max-width: 470px;
   }
 }
 @font-face {
