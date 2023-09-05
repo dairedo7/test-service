@@ -1,0 +1,2632 @@
+#rc-loreal-repair *,
+#rc-loreal-repair :before,
+#rc-loreal-repair :after {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+#rc-loreal-repair :before,
+#rc-loreal-repair :after {
+  --tw-content: '';
+}
+#rc-loreal-repair html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+}
+#rc-loreal-repair body {
+  line-height: inherit;
+  margin: 0;
+}
+#rc-loreal-repair hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+#rc-loreal-repair abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+#rc-loreal-repair h1,
+#rc-loreal-repair h2,
+#rc-loreal-repair h3,
+#rc-loreal-repair h4,
+#rc-loreal-repair h5,
+#rc-loreal-repair h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+#rc-loreal-repair a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#rc-loreal-repair b,
+#rc-loreal-repair strong {
+  font-weight: bolder;
+}
+#rc-loreal-repair code,
+#rc-loreal-repair kbd,
+#rc-loreal-repair samp,
+#rc-loreal-repair pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-size: 1em;
+}
+#rc-loreal-repair small {
+  font-size: 80%;
+}
+#rc-loreal-repair sub,
+#rc-loreal-repair sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+#rc-loreal-repair sub {
+  bottom: -0.25em;
+}
+#rc-loreal-repair sup {
+  top: -0.5em;
+}
+#rc-loreal-repair table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+#rc-loreal-repair button,
+#rc-loreal-repair input,
+#rc-loreal-repair optgroup,
+#rc-loreal-repair select,
+#rc-loreal-repair textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+#rc-loreal-repair button,
+#rc-loreal-repair select {
+  text-transform: none;
+}
+#rc-loreal-repair button,
+#rc-loreal-repair [type='button'],
+#rc-loreal-repair [type='reset'],
+#rc-loreal-repair [type='submit'] {
+  -webkit-appearance: button;
+  background-color: #0000;
+  background-image: none;
+}
+#rc-loreal-repair :-moz-focusring {
+  outline: auto;
+}
+#rc-loreal-repair :-moz-ui-invalid {
+  box-shadow: none;
+}
+#rc-loreal-repair progress {
+  vertical-align: baseline;
+}
+#rc-loreal-repair ::-webkit-inner-spin-button,
+#rc-loreal-repair ::-webkit-outer-spin-button {
+  height: auto;
+}
+#rc-loreal-repair [type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+#rc-loreal-repair ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#rc-loreal-repair ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+#rc-loreal-repair summary {
+  display: list-item;
+}
+#rc-loreal-repair blockquote,
+#rc-loreal-repair dl,
+#rc-loreal-repair dd,
+#rc-loreal-repair h1,
+#rc-loreal-repair h2,
+#rc-loreal-repair h3,
+#rc-loreal-repair h4,
+#rc-loreal-repair h5,
+#rc-loreal-repair h6,
+#rc-loreal-repair hr,
+#rc-loreal-repair figure,
+#rc-loreal-repair p,
+#rc-loreal-repair pre {
+  margin: 0;
+}
+#rc-loreal-repair fieldset {
+  margin: 0;
+  padding: 0;
+}
+#rc-loreal-repair legend {
+  padding: 0;
+}
+#rc-loreal-repair ol,
+#rc-loreal-repair ul,
+#rc-loreal-repair menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#rc-loreal-repair textarea {
+  resize: vertical;
+}
+#rc-loreal-repair input::placeholder,
+#rc-loreal-repair textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+#rc-loreal-repair button,
+#rc-loreal-repair [role='button'] {
+  cursor: pointer;
+}
+#rc-loreal-repair :disabled {
+  cursor: default;
+}
+#rc-loreal-repair img,
+#rc-loreal-repair svg,
+#rc-loreal-repair video,
+#rc-loreal-repair canvas,
+#rc-loreal-repair audio,
+#rc-loreal-repair iframe,
+#rc-loreal-repair embed,
+#rc-loreal-repair object {
+  vertical-align: middle;
+  display: block;
+}
+#rc-loreal-repair img,
+#rc-loreal-repair video {
+  max-width: 100%;
+  height: auto;
+}
+#rc-loreal-repair *,
+#rc-loreal-repair :before,
+#rc-loreal-repair :after,
+#rc-loreal-repair ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: #3b82f680;
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+#rc-loreal-repair .rc-absolute {
+  position: absolute;
+}
+#rc-loreal-repair .rc-relative {
+  position: relative;
+}
+#rc-loreal-repair .rc-right-0 {
+  right: 0;
+}
+#rc-loreal-repair .rc-top-\[5\%\] {
+  top: 5%;
+}
+#rc-loreal-repair .rc-left-\[14\%\] {
+  left: 14%;
+}
+#rc-loreal-repair .rc-top-0 {
+  top: 0;
+}
+#rc-loreal-repair .rc-left-\[25\%\] {
+  left: 25%;
+}
+#rc-loreal-repair .rc-left-\[75\%\] {
+  left: 75%;
+}
+#rc-loreal-repair .rc-right-\[40\%\] {
+  right: 40%;
+}
+#rc-loreal-repair .rc-right-\[18\%\] {
+  right: 18%;
+}
+#rc-loreal-repair .rc-top-\[50\%\] {
+  top: 50%;
+}
+#rc-loreal-repair .rc-left-0 {
+  left: 0;
+}
+#rc-loreal-repair .rc-left-2\/4 {
+  left: 50%;
+}
+#rc-loreal-repair .-rc-bottom-\[25\%\] {
+  bottom: -25%;
+}
+#rc-loreal-repair .-rc-left-\[19\%\] {
+  left: -19%;
+}
+#rc-loreal-repair .-rc-right-\[27\%\] {
+  right: -27%;
+}
+#rc-loreal-repair .rc-left-6 {
+  left: 1.5rem;
+}
+#rc-loreal-repair .rc-right-6 {
+  right: 1.5rem;
+}
+#rc-loreal-repair .-rc-left-12 {
+  left: -3rem;
+}
+#rc-loreal-repair .rc-bottom-\[19\.8\%\] {
+  bottom: 19.8%;
+}
+#rc-loreal-repair .rc-top-\[91\%\] {
+  top: 91%;
+}
+#rc-loreal-repair .rc-bottom-\[15\%\] {
+  bottom: 15%;
+}
+#rc-loreal-repair .rc-right-\[10\%\] {
+  right: 10%;
+}
+#rc-loreal-repair .rc-top-\[15\%\] {
+  top: 15%;
+}
+#rc-loreal-repair .rc-left-\[10\%\] {
+  left: 10%;
+}
+#rc-loreal-repair .-rc-top-\[5\%\] {
+  top: -5%;
+}
+#rc-loreal-repair .rc-top-\[75\%\] {
+  top: 75%;
+}
+#rc-loreal-repair .rc-z-\[4\] {
+  z-index: 4;
+}
+#rc-loreal-repair .rc-z-\[2\] {
+  z-index: 2;
+}
+#rc-loreal-repair .rc-z-\[-2\] {
+  z-index: -2;
+}
+#rc-loreal-repair .rc-order-2 {
+  order: 2;
+}
+#rc-loreal-repair .rc-col-span-3 {
+  grid-column: span 3 / span 3;
+}
+#rc-loreal-repair .rc-col-span-2 {
+  grid-column: span 2 / span 2;
+}
+#rc-loreal-repair .rc-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+#rc-loreal-repair .rc-mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#rc-loreal-repair .rc-mt-\[80px\] {
+  margin-top: 80px;
+}
+#rc-loreal-repair .rc-mb-\[50px\] {
+  margin-bottom: 50px;
+}
+#rc-loreal-repair .rc-mb-4 {
+  margin-bottom: 1rem;
+}
+#rc-loreal-repair .rc-mb-2 {
+  margin-bottom: 0.5rem;
+}
+#rc-loreal-repair .rc-mb-\[10px\] {
+  margin-bottom: 10px;
+}
+#rc-loreal-repair .rc-mt-\[10px\] {
+  margin-top: 10px;
+}
+#rc-loreal-repair .rc-mt-\[50px\] {
+  margin-top: 50px;
+}
+#rc-loreal-repair .rc-mt-\[4px\] {
+  margin-top: 4px;
+}
+#rc-loreal-repair .rc-mt-4 {
+  margin-top: 1rem;
+}
+#rc-loreal-repair .rc-mt-\[64px\] {
+  margin-top: 64px;
+}
+#rc-loreal-repair .rc-mt-10 {
+  margin-top: 2.5rem;
+}
+#rc-loreal-repair .rc-mt-2 {
+  margin-top: 0.5rem;
+}
+#rc-loreal-repair .rc-mb-\[7px\] {
+  margin-bottom: 7px;
+}
+#rc-loreal-repair .rc-mt-\[20px\] {
+  margin-top: 20px;
+}
+#rc-loreal-repair .rc-mb-10 {
+  margin-bottom: 2.5rem;
+}
+#rc-loreal-repair .rc-mb-\[36px\] {
+  margin-bottom: 36px;
+}
+#rc-loreal-repair .rc-mr-\[10px\] {
+  margin-right: 10px;
+}
+#rc-loreal-repair .rc-mb-6 {
+  margin-bottom: 1.5rem;
+}
+#rc-loreal-repair .rc-mb-\[25px\] {
+  margin-bottom: 25px;
+}
+#rc-loreal-repair .rc-mr-2 {
+  margin-right: 0.5rem;
+}
+#rc-loreal-repair .rc-mb-\[64px\] {
+  margin-bottom: 64px;
+}
+#rc-loreal-repair .rc-mt-16 {
+  margin-top: 4rem;
+}
+#rc-loreal-repair .rc-mb-\[5px\] {
+  margin-bottom: 5px;
+}
+#rc-loreal-repair .rc-ml-\[75px\] {
+  margin-left: 75px;
+}
+#rc-loreal-repair .rc-mb-\[2px\] {
+  margin-bottom: 2px;
+}
+#rc-loreal-repair .rc-mt-6 {
+  margin-top: 1.5rem;
+}
+#rc-loreal-repair .rc-mt-5 {
+  margin-top: 1.25rem;
+}
+#rc-loreal-repair .rc-mt-12 {
+  margin-top: 3rem;
+}
+#rc-loreal-repair .rc-mt-8 {
+  margin-top: 2rem;
+}
+#rc-loreal-repair .rc-ml-auto {
+  margin-left: auto;
+}
+#rc-loreal-repair .rc-mt-\[16px\] {
+  margin-top: 16px;
+}
+#rc-loreal-repair .rc-mr-5 {
+  margin-right: 1.25rem;
+}
+#rc-loreal-repair .rc-mb-28 {
+  margin-bottom: 7rem;
+}
+#rc-loreal-repair .rc-mt-9 {
+  margin-top: 2.25rem;
+}
+#rc-loreal-repair .rc-mr-3 {
+  margin-right: 0.75rem;
+}
+#rc-loreal-repair .rc-mb-9 {
+  margin-bottom: 2.25rem;
+}
+#rc-loreal-repair .rc-mt-\[8px\] {
+  margin-top: 8px;
+}
+#rc-loreal-repair .rc-mt-\[60px\] {
+  margin-top: 60px;
+}
+#rc-loreal-repair .rc-mt-\[44px\] {
+  margin-top: 44px;
+}
+#rc-loreal-repair .rc-mb-\[56px\] {
+  margin-bottom: 56px;
+}
+#rc-loreal-repair .rc-mb-\[40px\] {
+  margin-bottom: 40px;
+}
+#rc-loreal-repair .rc-mb-\[20px\] {
+  margin-bottom: 20px;
+}
+#rc-loreal-repair .rc-mt-\[36px\] {
+  margin-top: 36px;
+}
+#rc-loreal-repair .rc-mt-\[48px\] {
+  margin-top: 48px;
+}
+#rc-loreal-repair .rc-mb-\[48px\] {
+  margin-bottom: 48px;
+}
+#rc-loreal-repair .rc-mb-\[90px\] {
+  margin-bottom: 90px;
+}
+#rc-loreal-repair .rc-block {
+  display: block;
+}
+#rc-loreal-repair .rc-flex {
+  display: flex;
+}
+#rc-loreal-repair .rc-grid {
+  display: grid;
+}
+#rc-loreal-repair .rc-hidden {
+  display: none;
+}
+#rc-loreal-repair .rc-aspect-square {
+  aspect-ratio: 1/1;
+}
+#rc-loreal-repair .rc-aspect-auto {
+  aspect-ratio: auto;
+}
+#rc-loreal-repair .rc-h-\[100px\] {
+  height: 100px;
+}
+#rc-loreal-repair .rc-h-\[264px\] {
+  height: 264px;
+}
+#rc-loreal-repair .rc-h-\[28px\] {
+  height: 28px;
+}
+#rc-loreal-repair .rc-h-full {
+  height: 100%;
+}
+#rc-loreal-repair .rc-h-\[180px\] {
+  height: 180px;
+}
+#rc-loreal-repair .rc-h-\[46px\] {
+  height: 46px;
+}
+#rc-loreal-repair .rc-h-auto {
+  height: auto;
+}
+#rc-loreal-repair .rc-max-h-\[261px\] {
+  max-height: 261px;
+}
+#rc-loreal-repair .rc-min-h-\[200px\] {
+  min-height: 200px;
+}
+#rc-loreal-repair .rc-min-h-\[20px\] {
+  min-height: 20px;
+}
+#rc-loreal-repair .rc-w-full {
+  width: 100%;
+}
+#rc-loreal-repair .rc-w-\[130px\] {
+  width: 130px;
+}
+#rc-loreal-repair .rc-w-\[254px\] {
+  width: 254px;
+}
+#rc-loreal-repair .rc-w-\[204px\] {
+  width: 204px;
+}
+#rc-loreal-repair .rc-w-\[45\%\] {
+  width: 45%;
+}
+#rc-loreal-repair .rc-w-10 {
+  width: 2.5rem;
+}
+#rc-loreal-repair .rc-w-fit {
+  width: fit-content;
+}
+#rc-loreal-repair .rc-w-\[118px\] {
+  width: 118px;
+}
+#rc-loreal-repair .rc-w-\[82px\] {
+  width: 82px;
+}
+#rc-loreal-repair .rc-w-\[137px\] {
+  width: 137px;
+}
+#rc-loreal-repair .rc-w-\[100px\] {
+  width: 100px;
+}
+#rc-loreal-repair .rc-w-\[26px\] {
+  width: 26px;
+}
+#rc-loreal-repair .rc-w-\[80\%\] {
+  width: 80%;
+}
+#rc-loreal-repair .rc-w-auto {
+  width: auto;
+}
+#rc-loreal-repair .rc-w-\[131px\] {
+  width: 131px;
+}
+#rc-loreal-repair .rc-w-\[213px\] {
+  width: 213px;
+}
+#rc-loreal-repair .rc-w-\[127px\] {
+  width: 127px;
+}
+#rc-loreal-repair .rc-w-\[48px\] {
+  width: 48px;
+}
+#rc-loreal-repair .rc-w-\[41px\] {
+  width: 41px;
+}
+#rc-loreal-repair .rc-w-\[250px\] {
+  width: 250px;
+}
+#rc-loreal-repair .rc-w-\[315px\] {
+  width: 315px;
+}
+#rc-loreal-repair .rc-w-\[203px\] {
+  width: 203px;
+}
+#rc-loreal-repair .rc-w-\[100\%\] {
+  width: 100%;
+}
+#rc-loreal-repair .rc-w-\[236px\] {
+  width: 236px;
+}
+#rc-loreal-repair .rc-w-\[200px\] {
+  width: 200px;
+}
+#rc-loreal-repair .rc-min-w-\[440px\] {
+  min-width: 440px;
+}
+#rc-loreal-repair .rc-min-w-\[300px\] {
+  min-width: 300px;
+}
+#rc-loreal-repair .rc-max-w-\[920px\] {
+  max-width: 920px;
+}
+#rc-loreal-repair .rc-max-w-\[300px\] {
+  max-width: 300px;
+}
+#rc-loreal-repair .rc-max-w-\[400px\] {
+  max-width: 400px;
+}
+#rc-loreal-repair .rc-max-w-\[390px\] {
+  max-width: 390px;
+}
+#rc-loreal-repair .rc-max-w-\[480px\] {
+  max-width: 480px;
+}
+#rc-loreal-repair .rc-max-w-\[320px\] {
+  max-width: 320px;
+}
+#rc-loreal-repair .rc-max-w-1380 {
+  max-width: 1380px;
+}
+#rc-loreal-repair .rc-max-w-\[1188px\] {
+  max-width: 1188px;
+}
+#rc-loreal-repair .rc-max-w-\[345px\] {
+  max-width: 345px;
+}
+#rc-loreal-repair .rc-max-w-\[570px\] {
+  max-width: 570px;
+}
+#rc-loreal-repair .rc-max-w-\[280px\] {
+  max-width: 280px;
+}
+#rc-loreal-repair .rc-max-w-\[350px\] {
+  max-width: 350px;
+}
+#rc-loreal-repair .rc-flex-1 {
+  flex: 1;
+}
+#rc-loreal-repair .rc-shrink-0 {
+  flex-shrink: 0;
+}
+#rc-loreal-repair .rc-grow {
+  flex-grow: 1;
+}
+#rc-loreal-repair .rc-basis-\[127px\] {
+  flex-basis: 127px;
+}
+#rc-loreal-repair .-rc-translate-x-2\/4 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+#rc-loreal-repair .rc-translate-x-2\/4 {
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+#rc-loreal-repair .-rc-translate-y-2\/4 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+#rc-loreal-repair .rc-cursor-pointer {
+  cursor: pointer;
+}
+#rc-loreal-repair .rc-auto-cols-min {
+  grid-auto-columns: min-content;
+}
+#rc-loreal-repair .rc-auto-cols-\[240px\] {
+  grid-auto-columns: 240px;
+}
+#rc-loreal-repair .rc-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+#rc-loreal-repair .rc-grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+#rc-loreal-repair .rc-flex-col {
+  flex-direction: column;
+}
+#rc-loreal-repair .rc-flex-wrap {
+  flex-wrap: wrap;
+}
+#rc-loreal-repair .rc-items-start {
+  align-items: flex-start;
+}
+#rc-loreal-repair .rc-items-end {
+  align-items: flex-end;
+}
+#rc-loreal-repair .rc-items-center {
+  align-items: center;
+}
+#rc-loreal-repair .rc-justify-start {
+  justify-content: flex-start;
+}
+#rc-loreal-repair .rc-justify-center {
+  justify-content: center;
+}
+#rc-loreal-repair .rc-justify-between {
+  justify-content: space-between;
+}
+#rc-loreal-repair .rc-gap-2 {
+  gap: 0.5rem;
+}
+#rc-loreal-repair .rc-gap-\[40px\] {
+  gap: 40px;
+}
+#rc-loreal-repair .rc-gap-x-\[20px\] {
+  column-gap: 20px;
+}
+#rc-loreal-repair .rc-gap-y-\[4px\] {
+  row-gap: 4px;
+}
+#rc-loreal-repair .rc-gap-x-\[14px\] {
+  column-gap: 14px;
+}
+#rc-loreal-repair .rc-gap-y-\[54px\] {
+  row-gap: 54px;
+}
+#rc-loreal-repair .rc-gap-y-\[14px\] {
+  row-gap: 14px;
+}
+#rc-loreal-repair .rc-overflow-auto {
+  overflow: auto;
+}
+#rc-loreal-repair .rc-overflow-hidden {
+  overflow: hidden;
+}
+#rc-loreal-repair .rc-rounded-\[26px\] {
+  border-radius: 26px;
+}
+#rc-loreal-repair .rc-border-\[1px\] {
+  border-width: 1px;
+}
+#rc-loreal-repair .rc-border-\[3px\] {
+  border-width: 3px;
+}
+#rc-loreal-repair .rc-border-2 {
+  border-width: 2px;
+}
+#rc-loreal-repair .rc-border-\[1\.3px\] {
+  border-width: 1.3px;
+}
+#rc-loreal-repair .rc-border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+#rc-loreal-repair .rc-border-solid {
+  border-style: solid;
+}
+#rc-loreal-repair .rc-border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+#rc-loreal-repair .rc-border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+#rc-loreal-repair .rc-border-\[\#6e6152\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(110 97 82 / var(--tw-border-opacity));
+}
+#rc-loreal-repair .rc-bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+#rc-loreal-repair .rc-bg-\[\#EDECEA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 236 234 / var(--tw-bg-opacity));
+}
+#rc-loreal-repair .rc-bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+#rc-loreal-repair .rc-bg-\[\#EAEAEA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 234 234 / var(--tw-bg-opacity));
+}
+#rc-loreal-repair .rc-bg-\[\#F6F4F4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 244 244 / var(--tw-bg-opacity));
+}
+#rc-loreal-repair .rc-p-\[10px\] {
+  padding: 10px;
+}
+#rc-loreal-repair .rc-p-\[7px\] {
+  padding: 7px;
+}
+#rc-loreal-repair .rc-p-6 {
+  padding: 1.5rem;
+}
+#rc-loreal-repair .rc-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+#rc-loreal-repair .rc-px-\[26px\] {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+#rc-loreal-repair .rc-px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#rc-loreal-repair .rc-px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#rc-loreal-repair .rc-py-\[44px\] {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+#rc-loreal-repair .rc-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#rc-loreal-repair .rc-px-\[24px\] {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#rc-loreal-repair .rc-py-\[42px\] {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+#rc-loreal-repair .rc-px-\[8\%\] {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+#rc-loreal-repair .rc-py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+#rc-loreal-repair .rc-py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#rc-loreal-repair .rc-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#rc-loreal-repair .rc-px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#rc-loreal-repair .rc-py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+#rc-loreal-repair .rc-px-\[6px\] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+#rc-loreal-repair .rc-px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+#rc-loreal-repair .rc-px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+#rc-loreal-repair .rc-py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+#rc-loreal-repair .rc-px-\[104px\] {
+  padding-left: 104px;
+  padding-right: 104px;
+}
+#rc-loreal-repair .rc-px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+#rc-loreal-repair .rc-px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+#rc-loreal-repair .rc-py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#rc-loreal-repair .rc-py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+#rc-loreal-repair .rc-py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+#rc-loreal-repair .rc-py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#rc-loreal-repair .rc-py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#rc-loreal-repair .rc-px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+#rc-loreal-repair .rc-py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+#rc-loreal-repair .rc-px-\[9px\] {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+#rc-loreal-repair .rc-px-\[13px\] {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+#rc-loreal-repair .rc-px-\[16px\] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+#rc-loreal-repair .rc-px-\[65px\] {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+#rc-loreal-repair .rc-pr-0 {
+  padding-right: 0;
+}
+#rc-loreal-repair .rc-pl-4 {
+  padding-left: 1rem;
+}
+#rc-loreal-repair .rc-pr-10 {
+  padding-right: 2.5rem;
+}
+#rc-loreal-repair .rc-pt-8 {
+  padding-top: 2rem;
+}
+#rc-loreal-repair .rc-pb-1 {
+  padding-bottom: 0.25rem;
+}
+#rc-loreal-repair .rc-pl-2\.5 {
+  padding-left: 0.625rem;
+}
+#rc-loreal-repair .rc-pl-2 {
+  padding-left: 0.5rem;
+}
+#rc-loreal-repair .rc-pt-\[10px\] {
+  padding-top: 10px;
+}
+#rc-loreal-repair .rc-pb-10 {
+  padding-bottom: 2.5rem;
+}
+#rc-loreal-repair .rc-pt-\[34px\] {
+  padding-top: 34px;
+}
+#rc-loreal-repair .rc-pr-14 {
+  padding-right: 3.5rem;
+}
+#rc-loreal-repair .rc-pr-4 {
+  padding-right: 1rem;
+}
+#rc-loreal-repair .rc-pr-8 {
+  padding-right: 2rem;
+}
+#rc-loreal-repair .rc-pb-\[300px\] {
+  padding-bottom: 300px;
+}
+#rc-loreal-repair .rc-pt-\[54px\] {
+  padding-top: 54px;
+}
+#rc-loreal-repair .rc-pb-\[100px\] {
+  padding-bottom: 100px;
+}
+#rc-loreal-repair .rc-pt-9 {
+  padding-top: 2.25rem;
+}
+#rc-loreal-repair .rc-pb-6 {
+  padding-bottom: 1.5rem;
+}
+#rc-loreal-repair .rc-text-center {
+  text-align: center;
+}
+#rc-loreal-repair .rc-font-LorealProBook {
+  font-family: LorealPro-Book, sans-serif;
+}
+#rc-loreal-repair .rc-font-LorealProSemibold {
+  font-family: LorealPro-Semibold, sans-serif;
+}
+#rc-loreal-repair .rc-font-LorealProBold {
+  font-family: LorealPro-Bold, sans-serif;
+}
+#rc-loreal-repair .rc-font-LorealProMedium {
+  font-family: LorealPro-Medium, sans-serif;
+}
+#rc-loreal-repair .rc-font-LorealProExtraLight {
+  font-family: LorealPro-ExtraLight, sans-serif;
+}
+#rc-loreal-repair .rc-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+#rc-loreal-repair .rc-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+#rc-loreal-repair .rc-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+#rc-loreal-repair .rc-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#rc-loreal-repair .rc-text-\[8px\] {
+  font-size: 8px;
+}
+#rc-loreal-repair .rc-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+#rc-loreal-repair .rc-text-\[18px\] {
+  font-size: 18px;
+}
+#rc-loreal-repair .rc-text-\[10px\] {
+  font-size: 10px;
+}
+#rc-loreal-repair .rc-text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+#rc-loreal-repair .rc-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+#rc-loreal-repair .rc-text-\[20px\] {
+  font-size: 20px;
+}
+#rc-loreal-repair .rc-text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+#rc-loreal-repair .rc-text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+#rc-loreal-repair .rc-text-\[28px\] {
+  font-size: 28px;
+}
+#rc-loreal-repair .rc-uppercase {
+  text-transform: uppercase;
+}
+#rc-loreal-repair .rc-text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+#rc-loreal-repair .rc-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+#rc-loreal-repair .rc-text-\[\#4D4B4B\],
+#rc-loreal-repair .rc-text-\[\#4d4b4b\] {
+  --tw-text-opacity: 1;
+  color: rgb(77 75 75 / var(--tw-text-opacity));
+}
+#rc-loreal-repair .rc-transition-transform {
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#rc-loreal-repair .rc-duration-300 {
+  transition-duration: 0.3s;
+}
+#rc-loreal-repair .rc-ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-width: 321px) {
+  #rc-loreal-repair .xs\:rc-right-\[19\%\] {
+    right: 19%;
+  }
+}
+@media (min-width: 321px) {
+  #rc-loreal-repair .xs\:rc-left-\[15\%\] {
+    left: 15%;
+  }
+}
+@media (min-width: 414px) {
+  #rc-loreal-repair .sm_m\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 414px) {
+  #rc-loreal-repair .sm_m\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 414px) {
+  #rc-loreal-repair .sm_m\:rc-h-\[280px\] {
+    height: 280px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-top-\[18\%\] {
+    top: 18%;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-top-\[4\%\] {
+    top: 4%;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-left-\[18\%\] {
+    left: 18%;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-\[56px\] {
+    margin-top: 56px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mr-12 {
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mb-8 {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-\[64px\] {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-\[50px\] {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-12 {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-6 {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-mt-10 {
+    margin-top: 2.5rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-min-h-\[270px\] {
+    min-height: 270px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-max-w-\[100\%\] {
+    max-width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-p-\[36px\] {
+    padding: 36px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-\[68px\] {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-\[24px\] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-\[36px\] {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-\[48px\] {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-px-\[56px\] {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-pr-14 {
+    padding-right: 3.5rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-pr-6 {
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-pr-12 {
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-pl-16 {
+    padding-left: 4rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-pl-12 {
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 480px) {
+  #rc-loreal-repair .sm\:rc-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-absolute {
+    position: absolute;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-left-\[18\%\] {
+    left: 18%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-left-\[40\%\] {
+    left: 40%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-bottom-16 {
+    bottom: 4rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-top-auto {
+    top: auto;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-top-\[16\%\] {
+    top: 16%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-top-\[82\%\] {
+    top: 82%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-left-\[44\.5\%\] {
+    left: 44.5%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-left-\[14\%\] {
+    left: 14%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-top-\[15\%\] {
+    top: 15%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-left-\[6\%\] {
+    left: 6%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-top-\[55\%\] {
+    top: 55%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-order-2 {
+    order: 2;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mb-\[56px\] {
+    margin-bottom: 56px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-ml-auto {
+    margin-left: auto;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-16 {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-ml-4 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-1\.5 {
+    margin-top: 0.375rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-1 {
+    margin-top: 0.25rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-0 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-\[75px\] {
+    margin-top: 75px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mb-\[27px\] {
+    margin-bottom: 27px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mt-\[64px\] {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mb-\[36px\] {
+    margin-bottom: 36px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-mb-\[70px\] {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-flex {
+    display: flex;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-h-\[360px\] {
+    height: 360px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-h-full {
+    height: 100%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-max-h-\[326px\] {
+    max-height: 326px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-max-h-\[80\%\] {
+    max-height: 80%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-w-full {
+    width: 100%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-w-\[123\.5\%\] {
+    width: 123.5%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-w-\[123\%\] {
+    width: 123%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-max-w-\[45\%\] {
+    max-width: 45%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-max-w-\[50\%\] {
+    max-width: 50%;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-max-w-\[240px\] {
+    max-width: 240px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:-rc-translate-x-0 {
+    --tw-translate-x: -0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-grid-cols-240 {
+    grid-template-columns: 240px auto;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-flex-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-items-end {
+    align-items: flex-end;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-items-center {
+    align-items: center;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-justify-start {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-justify-end {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-justify-between {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-gap-2 {
+    gap: 0.5rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-bg-transparent {
+    background-color: #0000;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-object-fill {
+    object-fit: fill;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-px-\[48px\] {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-px-\[26px\] {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-px-\[32px\] {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-px-\[72px\] {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pr-20 {
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pl-5 {
+    padding-left: 1.25rem;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pr-0 {
+    padding-right: 0;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pb-\[55px\] {
+    padding-bottom: 55px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-pr-\[48px\] {
+    padding-right: 48px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-text-\[18px\] {
+    font-size: 18px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-text-\[15px\] {
+    font-size: 15px;
+  }
+}
+@media (min-width: 680px) {
+  #rc-loreal-repair .sm_xl\:rc-text-\[10px\] {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-bottom-28 {
+    bottom: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-top-\[23\%\] {
+    top: 23%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-left-\[39\.5\%\] {
+    left: 39.5%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-left-\[13\.5\%\] {
+    left: 13.5%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-top-\[20\%\] {
+    top: 20%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[70px\] {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mr-16 {
+    margin-right: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[90px\] {
+    margin-bottom: 90px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-4 {
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-6 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-16 {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-3 {
+    margin-bottom: 0.75rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-16 {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[18px\] {
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-0\.5 {
+    margin-bottom: 0.125rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-ml-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-2\.5 {
+    margin-top: 0.625rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-2 {
+    margin-top: 0.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-0 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-12 {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-9 {
+    margin-bottom: 2.25rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-\[80px\] {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-\[36px\] {
+    margin-top: 36px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-\[64px\] {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[64px\] {
+    margin-bottom: 64px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[48px\] {
+    margin-bottom: 48px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mt-\[74px\] {
+    margin-top: 74px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-mb-\[100px\] {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-flex {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-h-\[480px\] {
+    height: 480px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-max-h-\[440px\] {
+    max-height: 440px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[165px\] {
+    width: 165px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[40\%\] {
+    width: 40%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[45\%\] {
+    width: 45%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[47\%\] {
+    width: 47%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[53\%\] {
+    width: 53%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[114\.5\%\] {
+    width: 114.5%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-w-\[370px\] {
+    width: 370px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-max-w-\[348px\] {
+    max-width: 348px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-max-w-\[520px\] {
+    max-width: 520px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-max-w-\[420px\] {
+    max-width: 420px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-max-w-\[55\%\] {
+    max-width: 55%;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-items-start {
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-justify-end {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-justify-between {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-gap-10 {
+    gap: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-gap-5 {
+    gap: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[34px\] {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[64px\] {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[98px\] {
+    padding-left: 98px;
+    padding-right: 98px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-py-\[64px\] {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-py-\[6px\] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[48px\] {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[24px\] {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-px-\[65px\] {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pr-\[74px\] {
+    padding-right: 74px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pr-0 {
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pr-12 {
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pl-\[74px\] {
+    padding-left: 74px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pr-16 {
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-pl-16 {
+    padding-left: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-\[28px\] {
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+  #rc-loreal-repair .md\:rc-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-top-\[82\%\] {
+    top: 82%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-left-\[40\%\] {
+    left: 40%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-left-\[14\%\] {
+    left: 14%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-order-1 {
+    order: 1;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-mt-0 {
+    margin-top: 0;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-mr-auto {
+    margin-right: auto;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-grid {
+    display: grid;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-h-\[416px\] {
+    height: 416px;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-w-\[115\.5\%\] {
+    width: 115.5%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-w-full {
+    width: 100%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-w-\[115\%\] {
+    width: 115%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-max-w-\[392px\] {
+    max-width: 392px;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-max-w-\[80\%\] {
+    max-width: 80%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-max-w-\[50\.5\%\] {
+    max-width: 50.5%;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-justify-start {
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-justify-center {
+    justify-content: center;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-p-9 {
+    padding: 2.25rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-pl-4 {
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-pl-12 {
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-pt-\[92px\] {
+    padding-top: 92px;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-pr-14 {
+    padding-right: 3.5rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-pr-\[64px\] {
+    padding-right: 64px;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-text-\[28px\] {
+    font-size: 28px;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 914px) {
+  #rc-loreal-repair .md_xl\:rc-text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-mr-24 {
+    margin-right: 6rem;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-mb-5 {
+    margin-bottom: 1.25rem;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-ml-auto {
+    margin-left: auto;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-mt-20 {
+    margin-top: 5rem;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-h-\[416px\] {
+    height: 416px;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-h-\[440px\] {
+    height: 440px;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-max-h-\[598px\] {
+    max-height: 598px;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-w-\[470px\] {
+    width: 470px;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-justify-end {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-pb-28 {
+    padding-bottom: 7rem;
+  }
+}
+@media (min-width: 976px) {
+  #rc-loreal-repair .lg\:rc-pr-64 {
+    padding-right: 16rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:-rc-left-24 {
+    left: -6rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-ml-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mr-auto {
+    margin-right: auto;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-ml-\[97px\] {
+    margin-left: 97px;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mt-20 {
+    margin-top: 5rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mb-0 {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-mt-2 {
+    margin-top: 0.5rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-hidden {
+    display: none;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-\[1188px\] {
+    width: 1188px;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-\[97px\] {
+    width: 97px;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-\[45\%\] {
+    width: 45%;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-\[55\%\] {
+    width: 55%;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-\[116\%\] {
+    width: 116%;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-max-w-\[503px\] {
+    max-width: 503px;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-justify-between {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-pl-12 {
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-pl-8 {
+    padding-left: 2rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-pl-24 {
+    padding-left: 6rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 1180px) {
+  #rc-loreal-repair .xl_sm\:rc-block {
+    display: block;
+  }
+}
+@media (min-width: 1180px) {
+  #rc-loreal-repair .xl_sm\:rc-text-\[13px\] {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-mt-2\.5 {
+    margin-top: 0.625rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-mt-2 {
+    margin-top: 0.5rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-mb-2\.5 {
+    margin-bottom: 0.625rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-mb-2 {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-mt-\[2px\] {
+    margin-top: 2px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-h-\[598px\] {
+    height: 598px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-w-\[116\.5\%\] {
+    width: 116.5%;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-max-w-full {
+    max-width: 100%;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-pl-40 {
+    padding-left: 10rem;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-text-\[21px\] {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+.rc-bg-hero {
+  background: linear-gradient(158.74deg, #251e1632 9.28%, #251e1600 44.34%), linear-gradient(228.29deg, #251e1632 -1.64%, #251e1600 47.33%),
+    linear-gradient(#fff, #fff);
+}
+.rc-grow {
+  transition: all 0.2s ease-in-out;
+}
+.rc-grow:hover {
+  transform: matrix(1.2, 0, 0, 1.2, 0, -12);
+}
+.rc-active {
+  opacity: 1;
+  z-index: 1;
+  transform: translate(0);
+}
+.rc-inactive {
+  opacity: 0;
+  z-index: 0;
+  transform: translate(-100%);
+}
+.rc-col-outer {
+  width: 35%;
+}
+.rc-col-inner {
+  width: 30%;
+}
+.rc-h-504 {
+  height: 504px;
+}
+.rc-video {
+  clip-path: inset(1px);
+}
+@media (min-width: 480px) {
+  .rc-bg-hero {
+    background: linear-gradient(222.69deg, #251e1632 0.35%, #251e1600 42.36%), linear-gradient(294.94deg, #251e1632 1.7%, #251e1600 38.2%),
+      linear-gradient(#fff, #fff);
+  }
+}
+@font-face {
+  font-family: LorealPro-ExtraLight;
+  src: url(./fonts/LOREAL_PRO-1-ExtraLight.3db7531d.otf);
+}
+@font-face {
+  font-family: LorealPro-Book;
+  src: url(./fonts/LOREAL_PRO-2-Book.0dbb032b.otf);
+}
+@font-face {
+  font-family: LorealPro-Medium;
+  src: url(./fonts/LOREAL_PRO-3-Medium.89caaf2b.otf);
+}
+@font-face {
+  font-family: LorealPro-Semibold;
+  src: url(./fonts/LOREAL_PRO-4-SemiBold.ff30fbe3.otf);
+}
+@font-face {
+  font-family: LorealPro-Bold;
+  src: url(./fonts/LOREAL_PRO-5-Bold.139c187f.otf);
+}
