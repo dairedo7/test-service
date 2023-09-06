@@ -2370,8 +2370,8 @@
   }
 }
 @media (min-width: 981px) {
-  #rc-loreal-repair .lg_xl\:rc-ml-\[97px\] {
-    margin-left: 97px;
+  #rc-loreal-repair .lg_xl\:rc-ml-0 {
+    margin-left: 0;
   }
 }
 @media (min-width: 981px) {
@@ -2425,8 +2425,8 @@
   }
 }
 @media (min-width: 981px) {
-  #rc-loreal-repair .lg_xl\:rc-max-w-\[503px\] {
-    max-width: 503px;
+  #rc-loreal-repair .lg_xl\:rc-max-w-\[603px\] {
+    max-width: 603px;
   }
 }
 @media (min-width: 981px) {
@@ -2453,6 +2453,16 @@
 @media (min-width: 981px) {
   #rc-loreal-repair .lg_xl\:rc-pl-24 {
     padding-left: 6rem;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-pl-0 {
+    padding-left: 0;
+  }
+}
+@media (min-width: 981px) {
+  #rc-loreal-repair .lg_xl\:rc-w-603 {
+    width: 603px;
   }
 }
 @media (min-width: 981px) {
@@ -2487,6 +2497,11 @@
 @media (min-width: 1180px) {
   #rc-loreal-repair .xl_sm\:rc-text-\[13px\] {
     font-size: 13px;
+  }
+}
+@media (min-width: 1380px) {
+  #rc-loreal-repair .xl\:rc-pl-0 {
+    padding-left: 0;
   }
 }
 @media (min-width: 1380px) {
